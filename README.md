@@ -14,28 +14,29 @@ The code is implemented in an interactive *Jupyter* notebook and you can change 
 Or download the notebook from this repository and run it locally.
 
 
-The code models a single Integrate-and-Fire neuron for different input currents $I(t)$. First,  a the membrane potential $U(t)$ and corresponding spike times are calculated using the equation for a constant input current $I(t) = I_0$:
+The code models a single Integrate-and-Fire neuron for different input currents $I(t)$. First,  a the membrane potential $U(t)$ and corresponding spike times are calculated using the equation for a constant input current $I(t) = I_0$. You can interactively adjust the parameters of the model using the sliders, namely $I_0$, the resistance $R$, the capacity $C$, the firing threshold $theta§$ and the resting potential $U_\text{rest}$:
 
 
 [![png](/images/integrate_and_fire_neuron_python_1.gif "Integrate-and-Fire neuron using a constant input current.")](/images/integrate_and_fire_neuron_python_1.gif "Integrate-and-Fire neuron using a constant input current.")
-Integrate-and-Fire neuron using a constant input current $I(t) = I_0$. You can interactively adjust the parameters of the model using the sliders, namely $I_0$, the resistance $R$, the capacity $C$, the firing threshold $theta§$ and the resting potential $U_\text{rest}$.
 
 
-Second,  a the membrane potential $U(t)$ and corresponding spike times are calculated using the equation for a time-variable input current $I(t)$:
 
+Second,  a the membrane potential $U(t)$ and corresponding spike times are calculated using the equation for a time-variable input current $I(t)$. Here, you can additionally adjust the membrane time constant $\tau$:
 
 [![png](/images/integrate_and_fire_neuron_python_2.gif "Integrate-and-Fire neuron using a time-dependent input current.")](/images/integrate_and_fire_neuron_python_2.gif "Integrate-and-Fire neuron using a time-dependent input current.")
-Integrate-and-Fire neuron using a time-dependent input current $I(t)$. You can additionally adjust the membrane time constant $\tau$.
+
 
 
 Third, a the membrane potential $U(t)$ and corresponding spike times are calculated for two input constant currents $I_{0,1}$ and $I_{0,2}$:
 
 
 [![png](/images/integrate_and_fire_neuron_python_6.gif "Integrate-and-Fire neuron using two constant input currents.")](/images/integrate_and_fire_neuron_python_6.gif "Integrate-and-Fire neuron using two constant input currents.")
-Integrate-and-Fire neuron using two constant, but adjustable input currents.
 
+
+
+Simulating input currents with different intensities and durations:
 [![png](/images/integrate_and_fire_neuron_python_6.png "Simulating input currents with different intensities and durations.")](/images/integrate_and_fire_neuron_python_6.png "Simulating input currents with different intensities and durations.")
-Simulating input currents with different intensities and durations.
+
 
 
 
