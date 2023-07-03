@@ -39,7 +39,7 @@ Integrate-and-Fire neuron using two constant, but adjustable input currents.
 Please feel free to use the code for your own projects. If you find a bug or have a suggestion for improvement, please open an issue or send me an email. 
 
 
-Please cite the code as:
+If you use the code in your own projects, please cite it using the citation information:
 
 > Musacchio (2023), The Integrate and Fire Model: A simple neuronal model, https://www.fabriziomusacchio.com/blog/2023-07-03-integrate-and-fire-model/
 
