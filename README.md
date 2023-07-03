@@ -8,7 +8,8 @@ The code is implemented in an interactive *Jupyter* notebook and you can change 
 
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabrizioMusacchio/integrate_and_fire_model/blob/master/integrate_and_fire_model.ipynb)   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mpbrucker/mpbrucker.github.io/master?filepath=assets%2Fnotebooks%2FIntegrate-and-Fire.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FabrizioMusacchio/integrate_and_fire_model/blob/master/integrate_and_fire_model.ipynb)   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabrizioMusacchio/integrate_and_fire_model/HEAD)
+
 
 Or download the notebook from this repository and run it locally.
 
